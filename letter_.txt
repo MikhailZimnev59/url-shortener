@@ -1,0 +1,17 @@
+Здравствуйте!
+
+Представляю вашему вниманию выполненное тестовое задание по сокращению URL.
+
+###  Технологии
+- Python 3.14
+- Github https://github.com/MikhailZimnev59/url-shortener/
+- sqlite3
+- pytest
+- Fastapi
+- pyproject.toml
+
+### Эндпойнты
+- POST /shorten - сокращение ссылок с валидацией
+- GET /{code} - редирект по короткому коду
+
+ Михаил Зимнев
