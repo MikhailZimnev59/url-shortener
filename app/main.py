@@ -126,11 +126,6 @@ async def redirect_to_url(code: str):
     return url_data['original_url']
 
 
-@app.get("/health")
-async def health_check():
-    """Проверка работоспособности приложения"""
-    return {"status": "healthy"}
-
 
 if __name__ == "__main__":
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
